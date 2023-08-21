@@ -8,25 +8,25 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     ist_timezone = pytz.timezone('Asia/Kolkata')    
-    ist_time = datetime.now(ist_timezone).strftime('%H:%M:%S %p %Z')
+    ist_time = datetime.now(ist_timezone).strftime('%H:%M %p %Z')
     return render_template('index.html', current_time = ist_time)
 
 @app.route('/au')
 def index_au():
     au_timezone = pytz.timezone('Australia/Sydney')    
-    au_time = datetime.now(au_timezone).strftime('%H:%M:%S %p %Z')
+    au_time = datetime.now(au_timezone).strftime('%H:%M %p %Z')
     return render_template('index.html', current_time = au_time)
 
 @app.route('/us')
 def index_us():
     us_timezone = pytz.timezone('US/Pacific')    
-    us_time = datetime.now(us_timezone).strftime('%H:%M:%S %p %Z')
+    us_time = datetime.now(us_timezone).strftime('%H:%M %p %Z')
     return render_template('index.html', current_time = us_time)
 
 @app.route('/uk')
 def index_uk():
     uk_timezone = pytz.timezone('Europe/London')    
-    uk_time = datetime.now(uk_timezone).strftime('%H:%M:%S %p %Z')
+    uk_time = datetime.now(uk_timezone).strftime('%H:%M %p %Z')
     return render_template('index.html', current_time = uk_time)
 
 
