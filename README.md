@@ -1,11 +1,16 @@
 # Kindle Timer
 Displays the current time just with large font on kindle. 
 
+light mode             |  dark mode
+:-------------------------:|:-------------------------:
+![](./pictures/demolight.jpg)  |  ![](./pictures/demodark.jpg)
+
+
 ## Usage
 On experimental browser go on following link for IST time zone. For respecitve time zones please use the links below.
 
 ```
-https://kindle-timer.onrender.com/
+https://kindletimer.onrender.com/
 ```
 
 
@@ -14,18 +19,19 @@ https://kindle-timer.onrender.com/
 
 
 ```
-https://kindle-timer.onrender.com/us
+https://kindletimer.onrender.com/us
 ```
 
 ## UK time zone
 
 ```
-https://kindle-timer.onrender.com/uk
+https://kindletimer.onrender.com/uk
 ```
 
 ## AU time zone
 
 ```
-https://kindle-timer.onrender.com/au
+https://kindletimer.onrender.com/au
 ```
+
 
