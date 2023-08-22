@@ -9,9 +9,15 @@ light mode             |  dark mode
 ## Usage
 On experimental browser go on following link for IST time zone. For respecitve time zones please use the links below.
 
+`add ?land to the url for landscape mode`
+
+```
+
 ```
 https://kindletimer.onrender.com/
 ```
+
+
 
 
 # Other time zones 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="30">
+  <style>
+    @media screen {
+      div {
+      top:75%;
+      left: 30%;
+      text-align: center;
+      font-size: 50pt;
+    }
+    }
+
+  </style>
+</head>
+<body>
+  <div id = "page" >
+    {{current_time}}
+  </div>
+  
+</body>
+<script>
+
+
+
+      page = document.getElementById("page");
+      page.className = "landscape";
+      forcedRotation = true;
+      page.style.transform = "rotate(-90deg)";
+      page.style.transformOrigin = "bottom right";
+      page.style.webkitTransform = "rotate(-90deg)";
+      page.style.webkitTransformOrigin = "top left";
+      page.style.position = "absolute";
+
+
+</script>
+</html>
